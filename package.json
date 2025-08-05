@@ -1,0 +1,89 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "Strict TypeScript development starter with comprehensive linting and formatting rules",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc && tsc-alias -f -fe .js && npm run minify",
+    "minify": "find dist -name '*.js' -exec terser {} --compress --mangle -o {} \\;",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "docs": "typedoc src/index.ts --out docs",
+    "type-check": "tsc --noEmit",
+    "check-all": "npm run lint && npm run type-check && npm run test"
+  },
+  "keywords": [
+    "typescript",
+    "strict",
+    "linting",
+    "formatting",
+    "development",
+    "starter",
+    "template",
+    "eslint",
+    "prettier",
+    "jest",
+    "typedoc"
+  ],
+  "author": {
+    "name": "NeaByteLab",
+    "email": "me@neabyte.com",
+    "url": "https://github.com/NeaByteLab"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeaByteLab/TypeScript-Starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NeaByteLab/TypeScript-Starter/issues"
+  },
+  "homepage": "https://github.com/NeaByteLab/TypeScript-Starter#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-sonarjs": "^3.0.4",
+    "jest": "^30.0.5",
+    "prettier": "^3.6.2",
+    "terser": "^5.43.1",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.16",
+    "typedoc": "^0.28.9",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}
